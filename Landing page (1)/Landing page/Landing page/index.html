@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <HEAder>
+        <div class="content">
+            <nav>
+                <p class="brand"><strong>Artmóveis</strong></p>
+                <ul>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <button>Entrar</button>
+                </ul>
+            </nav>
+            <div class="header-block">
+                <div class="text">
+                    <h2>Melhor loja de móveis</h2>
+                    <p>
+                        Nossa loja trabalha com os melhores produtos e as melhores formas de pagamento.
+                    </p>
+                </div>
+                <img src="FOTO-1.jpg" alt="">
+            </div>
+        </div>
+    </HEAder>
+    <section class="catalog" id="catalog">
+        <div class="content">
+            <div class="title-wrapper-catalog">
+                <p>Procure o que deseja</p>
+                <h3>Catalogo</h3>
+            </div>
+            <div class="filter-card">
+                <input 
+                type="text" 
+                class="search-input" 
+                placeholder="Escolha o seu preferido"
+                />
+                <button class="search-button">Procurar</button>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-item">
+                    <img src="Foto 3.jpg" alt="o que for colocar">
+                    <div class="card-content">
+                        <h3>Sofá de 3 lugares</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="Foto 3.jpg" alt="o que for colocar">
+                    <div class="card-content">
+                        <h3>Sofá de 3 lugares</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div><div class="card-item">
+                    <img src="Foto 3.jpg" alt="o que for colocar">
+                    <div class="card-content">
+                        <h3>Sofá de 3 lugares</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div><div class="card-item">
+                    <img src="Foto 3.jpg" alt="o que for colocar">
+                    <div class="card-content">
+                        <h3>Sofá de 3 lugares</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div><div class="card-item">
+                    <img src="Foto 3.jpg" alt="o que for colocar">
+                    <div class="card-content">
+                        <h3>Sofá de 3 lugares</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div><div class="card-item">
+                    <img src="Foto 3.jpg" alt="o que for colocar">
+                    <div class="card-content">
+                        <h3>Sofá de 3 lugares</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div><div class="card-item">
+                    <img src="Foto 3.jpg" alt="o que for colocar">
+                    <div class="card-content">
+                        <h3>Sofá de 3 lugares</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <button type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ 
+
+    <div class="container">
+        <p class="textup">"Aqui você encontra todos os móveis para sua casa!</strong> "</p>
+        <div class="moveis">
+            <img class="movel" src="movel1.png" alt="" onclick="openModal('modal1')">
+            <img class="movel" src="movel2.png" alt="" onclick="openModal('modal2')">
+            <img class="movel" src="movel3.png" alt="" onclick="openModal('modal3')">
+            <img class="movel" src="movel4.png" alt="" onclick="openModal('modal4')">
+            
+            <dialog class="dialogbox" id="modal1" class="modal" >
+                <img src="./assets/modal1.png" alt="">
+                <h2>Sofá</h2>
+                <p class="textm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus culpa quos quasi necessitatibus debitis atque nisi voluptates cum repellat magnam harum consequuntur, vitae animi praesentium unde placeat aut amet dolorem.</p>
+                <img id="moveldialog" src="movel1.png" alt="">
+                <button class="bot-closemod" onclick="closeModal('modal1')">Voltar</button>
+            </dialog>
+
+            <dialog class="dialogbox" id="modal2" class="modal" >
+                <img src="./assets/modal1.png" alt="">
+                <h2>Armário:</h2>
+                <p class="textm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum cum accusamus ducimus temporibus, nam laboriosam quam tempora inventore consequatur aliquam. Sint nam laborum quia numquam voluptatibus veniam, laudantium libero eligendi?</p>
+                <img id="moveldialog" src="movel2.png" alt="">
+                <button class="bot-closemod" onclick="closeModal('modal2')">Voltar</button>
+            </dialog>
+
+            <dialog class="dialogbox" id="modal3" class="modal" >
+                <img src="./assets/modal1.png" alt="">
+                <h2>Mesa:</h2>
+                <p class="textm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam dolore fuga eius, expedita et omnis architecto eligendi maiores, error doloribus quas ex earum commodi perspiciatis laboriosam. Aliquam, atque animi.</p>
+                <img id="moveldialog" src="movel3.png" alt="">
+                <button class="bot-closemod" onclick="closeModal('modal3')">Voltar</button>
+            </dialog>
+
+            <dialog class="dialogbox" id="modal4" class="modal" >
+                <img src="./assets/modal1.png" alt="">
+                <h2>Televisão:</h2>
+                <p class="textm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae quo eos odio iste officia, excepturi, ab dignissimos atque architecto magni consequuntur. Consequatur inventore beatae odit illo, ducimus alias pariatur?</p>
+                <img id="moveldialog" src="movel4.png" alt="">
+                <button class="bot-closemod" onclick="closeModal('modal4')">Voltar</button>
+            </dialog>
+        </div>
+    </div>
+
+    <div class="body2">
+        <div class="carrossel">
+            <div class="container" id="img">
+                <img src="armário .png" alt="Promoção armário">  
+                <img src="Sofá Retratil.png" alt="promoção sofá">
+                <img src="todas as mesas do site.png" alt="promoão mesa">
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title-wrapper-about">
+                
+                <h3>Sobre nós:</h3>
+            </div>
+            <div class="about-content">
+                <div class="left">
+                    <img src="interrogação .png" alt="">
+                </div>
+                <div class="rigth">
+                    <h3>Onde você irá comprar</h3>
+                    <p>A Artmóveis está no mercado desde 1999 deixando sua casa mais bonira, elegante e confortável. Com as melhores condições, você 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer>
+    <div class="main">
+        <div class="content footer-links">
+             <div class="footer-company">
+                <h4>Empresa</h4>
+                <h6>Sobre</h6>
+                <h6>Contato</h6>
+             </div>
+             <div class="footer-rental">
+                <h4>Comprar</h4>
+                <h6>Sofás</h6>
+                <h6>Armários</h6>
+                <h6>Mesas</h6>
+             </div>
+             <div class="footer-social">
+                <h4>Nossas Redes Sociais</h4>
+                <div class="social-icons">
+                    <img src="instagram.png" alt="Instagram">
+                    <img src="facebook.png" alt="Facebook">
+                </div>
+             </div>
+             <div class="footer-contact">
+                <h4>Fale conosco</h4>
+                <h6>(75)3331-2402</h6>
+                <h6>(75)99932-3694</h6>
+                <h6>lojaartmoveis@hotmail.com</h6>
+                <h6>Rua Conêgo João Pedro Alves, 278. Seabra-Ba</h6>
+             </div>
+        </div>
+    </div>
+    <div class="last">
+        Loja Artmóveis, Venha nos visitar. 
+    </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
